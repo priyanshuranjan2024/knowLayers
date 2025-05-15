@@ -1,0 +1,26 @@
+
+<!-- This file is responsible for the layout and structure of the popup window that appears when the extension icon is clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Explain It All</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="content">
+    <h2>KnowLayers</h2>
+
+    <div id="explanations" class="hidden">
+      <div id="child" class="explanation-box"></div>
+      <div id="student" class="explanation-box"></div>
+      <div id="expert" class="explanation-box"></div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+  <script src="libs/marked.min.js"></script> 
+  <!-- for parsing markdown -->
+</body>
+</html>

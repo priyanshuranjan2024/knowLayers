@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+    min-width: 300px;
+    max-width: 400px;
+  }
+  
+  #content {
+    padding: 16px;
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #111827;
+  }
+  
+  #loading {
+    color: #6b7280;
+    font-size: 0.95rem;
+  }
+  
+  #explanations {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .explanation-box {
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    border: 1px solid transparent;
+  }
+  
+  #child {
+    background-color: #fef3c7;
+    border-color: #fde68a;
+  }
+  
+  #student {
+    background-color: #dbeafe;
+    border-color: #93c5fd;
+  }
+  
+  #expert {
+    background-color: #d1fae5;
+    border-color: #6ee7b7;
+  }
+ 
+  /* styling for the popup.html */
